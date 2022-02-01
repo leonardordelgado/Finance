@@ -1,0 +1,19 @@
+body{
+    background-color: var(--bg-body);
+    font-family: 'fantasy', sans-serif;
+    color: var(--br-letra1);
+}
+header img{
+    width: 200px;
+}
+.cabecalio{
+    background-color:var(--bg-header);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    box-shadow: 0px 4px 4px var(--br--box-shadow1);
+}
+button{
+    background-color: transparent;
+}

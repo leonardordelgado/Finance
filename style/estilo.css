@@ -1,0 +1,7 @@
+/*corres para todas as paginas*/
+:root{
+    --bg-body: rgb(79,79,79) ;
+    --bg-letra1: rgb(220,220,220);
+    --bg-header: #15191c;
+    --bg--box-shadow1: rgb(0 0 0 /16%);
+}
