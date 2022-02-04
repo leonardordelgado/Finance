@@ -12,3 +12,27 @@
     content: "\F18A";
     width: 35px;
 }
+.menu-lateral-link::before{
+    content: "";
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+    position: absolute;
+    left: 24px;
+}
+.menu-lateral-link-inicio::before{
+    content: "\F423";
+    font-size: 25px;
+}
+.menu-lateral-link-quem::before{
+    content: "\F194";
+    font-size: 25px;
+}
+.menu-lateral-link-contatos::before{
+    content: "\F5C1";
+    font-size: 25px;
+}
+.menu-lateral-link-servicos::before{
+    content: "\F5DB";
+    font-size: 25px;
+}
