@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "bootstrap-icons";
+    src: url("./fonts/bootstrap-icons.woff2?856008caa5eb66df68595e734e59580d") format("woff2"),
+  url("./fonts/bootstrap-icons.woff?856008caa5eb66df68595e734e59580d") format("woff");
+  }
+
+.menu-buton i::before{
+    content: "\F479";
+    width: 35px;
+}
+.noti-buton i::before{
+    content: "\F18A";
+    width: 35px;
+}

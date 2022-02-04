@@ -5,7 +5,7 @@ body{
     color: var(--bg-letra1);
 }
 header img{
-    width: 190px;
+    width: 180px;
 }
 .cabecalio{
     background-color:var(--bg-header);
