@@ -5,7 +5,7 @@ body{
     color: var(--bg-letra1);
 }
 header img{
-    width: 190px;
+    width: 180px;
 }
 .cabecalio{
     background-color:var(--bg-header);
@@ -27,6 +27,13 @@ header img{
     background-color: var(--bg-header);
     width: 75vw;
     height: 100vh;
+    position: absolute;
+    left: -100vw;
+    transition: 3s;
+}
+.menu-lateral-ativo{
+    left: 0;
+    transition: 3s;
 }
 .menu-lateral-link{
     height: 60px;
@@ -34,4 +41,9 @@ header img{
     padding-left: 64px ;
     display: flex;
     align-items: center;
+}
+.menu-lateral-link-ativo{
+    color: var(--bg-letra1);
+    padding-left: 56px;
+    border-left: 8px solid var(--bg-letra1);
 }
