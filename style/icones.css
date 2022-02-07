@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "bootstrap-icons";
+    src: url("./fonts/bootstrap-icons.woff2?856008caa5eb66df68595e734e59580d") format("woff2"),
+  url("./fonts/bootstrap-icons.woff?856008caa5eb66df68595e734e59580d") format("woff");
+  }
+
+  .menu-buton i::before{
+    content: "\F479";
+    font-size: 25px;
+}
+.noti-buton i::before{
+    content: "\F18A";
+    font-size: 20px;
+}
+.menu-lateral-link::before{
+    content: "";
+    width: 25px;
+    height: 25px;
+    font-size: 25px;
+    position:absolute;
+    left: 24px;
+    color: aliceblue;
+}
+.menu-lateral-link-ativo{
+    color: var(bg-letra1);
+    padding-left: 56px;
+    border-left: 8px solid var(--bg-letra1);
+}
+.menu-lateral-link-inicio::before{
+    content: "\F423";
+    font-size: 20px;
+}
+.menu-lateral-link-quem::before{
+    content: "\F194";
+    font-size: 20px;
+}
+.menu-lateral-link-contatos::before{
+    content: "\F446";
+    font-size: 20px;
+}
+.menu-lateral-link-servicos::before{
+    content: "\F5B2";
+    font-size: 20px;
+}
